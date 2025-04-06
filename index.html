@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Adulting is Hard</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f5f5dc; /* beige */
+      font-family: sans-serif;
+    }
+
+    .title {
+      font-size: 32px;
+      color: #333;
+      padding: 20px;
+      text-align: left;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 120px);
+      gap: 30px;
+      padding: 0 50px 50px;
+      margin-left: 20px;
+    }
+
+    .box {
+      width: 120px;
+      height: 120px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      color: black;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    .box .plus {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .blue { background-color: blue; color: white; }
+    .green { background-color: green; color: white; }
+    .orange { background-color: orange; }
+    .mustard { background-color: #ffdb58; }
+    .red { background-color: red; color: white; }
+    .lightblue { background-color: lightblue; }
+    .beige { background-color: #f1dfb6; }
+  </style>
+</head>
+<body>
+
+  <div class="title">Adulting is Hard</div>
+
+  <div class="grid">
+    <div class="box blue">
+      <div class="plus">+</div>
+      Protect your<br>mental health
+    </div>
+    <div class="box green">
+      <div class="plus">+</div>
+      Budget<br>finances
+    </div>
+    <div class="box orange">
+      <div class="plus">+</div>
+      Do your<br>laundry
+    </div>
+    <div class="box mustard">
+      <div class="plus">+</div>
+      Schedule<br>appointments
+    </div>
+    <div class="box red">
+      <div class="plus">+</div>
+      Clean<br>apartment
+    </div>
+    <div class="box lightblue">
+      <div class="plus">+</div>
+      New<br>Services
+    </div>
+    <div class="box beige">
+      <div class="plus">+</div>
+      Cook<br>Dinner
+    </div>
+  </div>
+
+</body>
+</html>
